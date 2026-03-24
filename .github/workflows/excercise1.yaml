@@ -1,0 +1,17 @@
+---
+name: excercise.yaml
+
+on: 
+    push:
+        branches:
+            - main
+
+jobs:
+    learning:  
+        runs-on: ubuntu-latest
+        steps: 
+            - name: learning
+              run : "echo Hello how are you"
+            
+
+
