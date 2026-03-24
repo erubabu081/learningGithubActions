@@ -3,7 +3,7 @@ name: Excercise2
 on:
     pull_request:
         branches:
-            -dev
+            - dev
 jobs:
     excercise2:
         runs-on: ubuntu-latest
